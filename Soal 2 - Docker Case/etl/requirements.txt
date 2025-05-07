@@ -1,0 +1,1 @@
+httpx  # Untuk melakukan HTTP request secara asynchronous
