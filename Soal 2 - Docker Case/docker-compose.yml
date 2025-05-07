@@ -1,0 +1,17 @@
+# Menentukan versi docker-compose
+version: "3.8"
+
+services:
+  # Service API
+  api:
+    build: ./api  # Membangun image dari folder ./api
+    container_name: api  # Nama container
+    ports:
+      - "6000:6000"  # Mapping port host ke container
+
+  # Service ETL
+  etl:
+    build: ./etl  # Membangun image dari folder ./etl
+    container_name: etl  # Nama container
+    depends_on:
+      - api  # Menunggu API selesai dibuat sebelum ETL dijalankan
