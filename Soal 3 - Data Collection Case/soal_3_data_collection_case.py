@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Soal 3 - Data Collection Case
+"""Soal 3 - Data Collection Case"""
 
 # -*- coding: utf-8 -*-
 """Web scraper for FortiGuard encyclopedia"""
