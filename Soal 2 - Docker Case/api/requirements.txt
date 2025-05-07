@@ -1,0 +1,2 @@
+uvicorn  # Server ASGI untuk menjalankan FastAPI
+fastapi  # Framework web modern berbasis Python
